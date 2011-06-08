@@ -1,0 +1,45 @@
+* WYSIWYG Filter - seems to be the easiest to install, does not require third-party libraries
+* HTML Purifier - the most popular and powerful, although some people claim that it might be a bit slow
+* htmLawed - another alternative, less popular than both modules above
+
+
+Drupal + FCKEditor + GeSHi Filte
+
+
+In Dojo, you can use:
+dojo.require("dojox.dtl.filter.htmlstrings");
+var foo=dojox.dtl.filter.htmlstrings.striptags(value); 5/25/2010 5:09 PM 
+
+
+JQuery?
+
+http://geekswithblogs.net/aghausman/archive/2008/10/30/how-to-remove-html-tags-from-a-string-in-javascript.aspx
+      function removeHTMLTags(htmlString){
+        if(htmlString){
+          var mydiv = document.createElement("div");
+           mydiv.innerHTML = htmlString;
+ 
+            if (document.all) // IE Stuff
+            {
+                return mydiv.innerText;
+               
+            }   
+            else // Mozilla does not work with innerText
+            {
+                return mydiv.textContent;
+            }                           
+      }
+   }
+
+
+jQuery.fn.stripTags = function() { return this.replaceWith( this.html().replace(/<\/?[^>]+>/gi, '') ); };
+
+
+http://programmingbulls.com/what-php-strip-tags-jquery-quivalent
+
+
+ fieldSelection jQuery plugin
+STRIP TAGS
+
+
+dojox.dtl.filter.htmlstrings.removetags

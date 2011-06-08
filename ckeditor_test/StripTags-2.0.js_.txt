@@ -1,0 +1,50 @@
+﻿/* 
+* Author: Matt Seigel
+* Name: Strip Tags 
+* Version: v2.0.340
+* Relase Date: 9/24/2010
+* Contact: http://brokenbytes.info
+*/
+$(document).ready(function () {
+    // ***** START OPTIONS ***** //
+    // Name of target textarea / input box
+    var target = "#txtArea";
+    // Boolean indicating wether to remove linebreaks or not
+    var removeLinebreaks = true;
+    // ****** END OPTIONS ****** //
+
+    // Bind to the thing you want to check for pastes
+    $(target).bind('paste', function (e) {
+        // Calling Object
+        var callingObject = $(this);
+        // Get the original text in the target
+        var originalText = $(this).val();
+        // Get cursor information
+        var cursorInfo = $(target).getSelection();
+        // Set a very short timeout and set its callback to the function 
+        // stripping tags, the short timeout allows for the pasted text to be accessable
+        setTimeout(function () { stripTags(callingObject, originalText, cursorInfo, removeLinebreaks) }, 1);
+    });
+});
+/* 
+* callingObject:       Calling object.
+* originalText:        The text inside the textarea before the paste.
+* cursorInfo:          Gets the information about the cursor. (location, etc)
+* removeLinebreaks:    true to remove linebreaks, false to ignore linebreaks
+*/
+function stripTags(callingObject, originalText, cursorInfo, removeLinebreaks) {
+    // Get the front part of the original text (part before the new text)
+    var front = originalText.substring(0, cursorInfo.start);
+    // Get the back part of the original text (part after the new text)
+    var back = originalText.substring(cursorInfo.end);
+    // Get the pasted text out of the new text
+    var pasted = callingObject.val().replace(front, "").replace(back, "");
+    // Remove tags from the pasted stuff
+    pasted = pasted.replace(/(<[^<>]*>)/g, "");
+    // Remove newline characters, if we want to.
+    if (removeLinebreaks) {
+        pasted = pasted.replace(/\n/g, "");
+    }
+    // Put the new text into the target
+    $(callingObject).text(front + pasted + back);
+}

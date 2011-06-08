@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+ 
+
+	//var arr = new Array(3)
+	//arr[0] = "George"
+	//arr[1] = "John"
+	//arr[2] = "Thomas"
+	//document.write(arr.join())
+	
+
+	/***************************************************
+	STRIP HTML TAGS
+	****************************************************/
+	function strip_tags(html){
+ 
+		//PROCESS STRING
+		if(arguments.length < 3) {
+			alert("arguments.length < 3");
+			html=html.replace(/<\/?(?!\!)[^>]*>/gi, '');
+		} else {
+
+			var allowed = arguments[1];
+			//var specified = eval("["+arguments[2]+"]");
+			 
+			alert("hi");
+			
+			var specified = ["h1"];
+			
+			alert(specified.join('|'));
+			
+			/*
+			if(allowed){
+				var regex='</?(?!(' + specified.join('|') + '))\b[^>]*>';
+				html=html.replace(new RegExp(regex, 'gi'), '');
+			} else{
+				var regex='</?(' + specified.join('|') + ')\b[^>]*>';
+				html=html.replace(new RegExp(regex, 'gi'), '');
+			}
+			*/
+			
+			
+			//alert(new RegExp("</?\s*" + specified + "\s*[^>]*>", "gi"));
+			//html = html.replace(new RegExp("</?\s*" + specified + "\s*[^>]*>", "gi"), "");
+			
+			//var regex="</?\s*(" + specified.join('|') + ")\s*[^>]*>";
+			var regex="</?\s*[^(" + specified.join('|') + ")]\s*[^>]*>";
+			alert(regex);
+			html = html.replace(new RegExp(regex, "gi"), "");
+			
+		}
+ 
+		//CHANGE NAME TO CLEAN JUST BECAUSE 
+		var clean_string = html;
+ 
+		//RETURN THE CLEAN STRING
+		return clean_string;
+	}
+ 
+</script>
+</head>
+<script type="text/javascript"> 
+
+	//var tags = [];
+	//tags.push("a");
+	//tags.push("b");
+	//alert(tags.join("|"));
+	
+	
+
+	var sample_html = '<h1><a href="http://www.ah1gozipline.com">Zipline Interactive</a></h1>';
+	document.write('Without Stripping Tags : ' + sample_html);
+	var demo = strip_tags(sample_html,true,"specified");
+	document.write('With Stripping Tags: ' + demo);
+	alert(demo);
+</script>
+<body>
+</body>
+</html>
