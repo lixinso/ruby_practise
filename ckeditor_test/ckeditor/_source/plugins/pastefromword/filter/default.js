@@ -616,6 +616,11 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 				{
 					'^' : function( element )
 					{
+						var tagsRegex = new RegExp('^(?:table|tbody|tr|td)$');
+						if(tagsRegex.test(element.name)){
+							delete element.name;
+							return;
+						}
 						// Transform CSS style declaration to inline style.
 						var applyStyleFilter;
 						if ( CKEDITOR.env.gecko && ( applyStyleFilter = filters.applyStyleFilter ) )
@@ -787,8 +792,14 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 						}
 					},
 
+					'tr' : function ( element )
+					{
+						delete element.name;
+					},
+
 					'td' : function ( element )
 					{
+						delete element.name;
 						// 'td' in 'thead' is actually <th>.
 						if ( element.getAncestor( 'thead') )
 							element.name = 'th';
@@ -1116,6 +1127,7 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 		}
 		catch ( e )
 		{
+			alert(e);
 			alert( editor.lang.pastefromword.error );
 		}
 
