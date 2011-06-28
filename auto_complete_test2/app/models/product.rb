@@ -6,7 +6,7 @@ class Product < ActiveRecord::Base
   end
 
   def category_name=(name)
-    self.category = Category.find_or_create_by_name(name) unless name.blank?
+  #  self.category = Category.find_or_create_by_name(name) unless name.blank?
   end
 
 end
