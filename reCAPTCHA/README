@@ -1,0 +1,5 @@
+Replace this 2 key with your own.
+
+environment.rb
+  RCC_PUB='Your Pub Key'
+  RCC_PRIV = 'Your Private Key'

@@ -1,5 +1,15 @@
 class ProductsController < ApplicationController
-  
+
+  def autocomplete_product_category
+      @categories = Category.find(:all, :conditions => ['name LIKE ?', "%#{params[:search]}%"])
+      #respond_to do |format|
+      #  format.html # index.html.erb
+      #  format.xml  { render :xml => @categories }
+      #  format.js
+      #end
+      render :layout => false
+  end
+
   # GET /products
   # GET /products.xml
   def index
