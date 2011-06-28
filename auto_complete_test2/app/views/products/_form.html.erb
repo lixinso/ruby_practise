@@ -9,7 +9,7 @@
     
     <%= f.hidden_field :category_id  %>
     <%= f.label :category_name   %><br />
-    <%= text_field_with_auto_complete :product, :category_name,{:size => 15},{:after_update_element => "function (e, u){ updateProduct(e);}", :url => formatted_categories_path(:js), :method => :get, :with => "'search=' + element.value" } %>
+    <%= text_field_with_auto_complete :product, :category_name,{:size => 15},{:after_update_element => "function (e, u){ updateProduct(e);}",   :url => formatted_categories_path(:html), :method => :get, :with => "'search=' + element.value" } %>
 
     <br/>
  
