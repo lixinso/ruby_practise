@@ -598,3 +598,428 @@ Processing CitiesController#show (for 127.0.0.1 at 2011-07-04 20:43:39) [GET]
 Rendering template within layouts/cities
 Rendering cities/show
 Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/cities/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContinents (20110704123151)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "continents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "continient_name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110704123151')[0m
+Migrating to CreateCountries (20110704123245)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "countries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "continent_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110704123245')[0m
+Migrating to CreateCities (20110704123308)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "cities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "country_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110704123308')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("continents")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("countries")[0m
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2011-07-04 21:09:18) [GET]
+  [4;35;1mCity Load (0.4ms)[0m   [0mSELECT * FROM "cities" [0m
+Rendering template within layouts/cities
+Rendering cities/index
+Completed in 121ms (View: 72, DB: 0) | 200 OK [http://localhost/cities/]
+
+
+Processing ContinentsController#index (for 127.0.0.1 at 2011-07-04 21:09:26) [GET]
+  [4;36;1mContinent Load (0.4ms)[0m   [0;1mSELECT * FROM "continents" [0m
+Rendering template within layouts/continents
+Rendering continents/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/continents]
+
+
+Processing ContinentsController#new (for 127.0.0.1 at 2011-07-04 21:09:28) [GET]
+Rendering template within layouts/continents
+Rendering continents/new
+
+ActionView::TemplateError (undefined method `name' for #<Continent:0x1034db3c8>) on line #8 of app/views/continents/new.html.erb:
+5: 
+6:   <p>
+7:     <%= f.label :name %><br />
+8:     <%= f.text_field :name %>
+9:   </p>
+10:   <p>
+11:     <%= f.submit 'Create' %>
+
+    app/views/continents/new.html.erb:8
+    app/views/continents/new.html.erb:3
+    app/controllers/continents_controller.rb:29:in `new'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (500.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContinentsController#new (for 127.0.0.1 at 2011-07-04 21:10:47) [GET]
+Rendering template within layouts/continents
+Rendering continents/new
+
+ActionView::TemplateError (undefined method `continent_name' for #<Continent:0x103617ef8>) on line #8 of app/views/continents/new.html.erb:
+5: 
+6:   <p>
+7:     <%= f.label :continent_name %><br />
+8:     <%= f.text_field :continent_name %>
+9:   </p>
+10:   <p>
+11:     <%= f.submit 'Create' %>
+
+    app/views/continents/new.html.erb:8
+    app/views/continents/new.html.erb:3
+    app/controllers/continents_controller.rb:29:in `new'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContinentsController#new (for 127.0.0.1 at 2011-07-04 21:12:09) [GET]
+Rendering template within layouts/continents
+Rendering continents/new
+
+ActionView::TemplateError (undefined method `continent_name' for #<Continent:0x103416e10>) on line #8 of app/views/continents/new.html.erb:
+5: 
+6:   <p>
+7:     <%= f.label :continent_name %><br />
+8:     <%= f.text_field :continent_name %>
+9:   </p>
+10:   <p>
+11:     <%= f.submit 'Create' %>
+
+    app/views/continents/new.html.erb:8
+    app/views/continents/new.html.erb:3
+    app/controllers/continents_controller.rb:29:in `new'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (84.3ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContinentsController#new (for 127.0.0.1 at 2011-07-04 21:12:12) [GET]
+Rendering template within layouts/continents
+Rendering continents/new
+
+ActionView::TemplateError (undefined method `continent_name' for #<Continent:0x1034c8048>) on line #8 of app/views/continents/new.html.erb:
+5: 
+6:   <p>
+7:     <%= f.label :continent_name %><br />
+8:     <%= f.text_field :continent_name %>
+9:   </p>
+10:   <p>
+11:     <%= f.submit 'Create' %>
+
+    app/views/continents/new.html.erb:8
+    app/views/continents/new.html.erb:3
+    app/controllers/continents_controller.rb:29:in `new'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (88.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContinents (20110704123151)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "continents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "continent_name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110704123151')[0m
+Migrating to CreateCountries (20110704123245)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "countries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "continent_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110704123245')[0m
+Migrating to CreateCities (20110704123308)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "cities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "country_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110704123308')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("continents")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("countries")[0m
+
+
+Processing ContinentsController#new (for 127.0.0.1 at 2011-07-04 21:15:10) [GET]
+Rendering template within layouts/continents
+Rendering continents/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/continents/new]
+
+
+Processing ContinentsController#create (for 127.0.0.1 at 2011-07-04 21:15:16) [POST]
+  Parameters: {"continent"=>{"continent_name"=>"con1"}, "commit"=>"Create", "authenticity_token"=>"Nr/SNqHc6mLC9BJf7gUEfj47dbSAqhBCLGP+2LDGfXA="}
+  [4;36;1mContinent Create (0.3ms)[0m   [0;1mINSERT INTO "continents" ("created_at", "continent_name", "updated_at") VALUES('2011-07-04 13:15:16', 'con1', '2011-07-04 13:15:16')[0m
+Redirected to http://localhost:3007/continents/1
+Completed in 21ms (DB: 0) | 302 Found [http://localhost/continents]
+
+
+Processing ContinentsController#show (for 127.0.0.1 at 2011-07-04 21:15:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mContinent Load (0.2ms)[0m   [0mSELECT * FROM "continents" WHERE ("continents"."id" = 1) [0m
+Rendering template within layouts/continents
+Rendering continents/show
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/continents/1]
+
+
+Processing ContinentsController#index (for 127.0.0.1 at 2011-07-04 21:15:18) [GET]
+  [4;36;1mContinent Load (0.3ms)[0m   [0;1mSELECT * FROM "continents" [0m
+Rendering template within layouts/continents
+Rendering continents/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/continents]
+
+
+Processing ContinentsController#new (for 127.0.0.1 at 2011-07-04 21:15:19) [GET]
+Rendering template within layouts/continents
+Rendering continents/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/continents/new]
+
+
+Processing ContinentsController#create (for 127.0.0.1 at 2011-07-04 21:15:24) [POST]
+  Parameters: {"continent"=>{"continent_name"=>"con2"}, "commit"=>"Create", "authenticity_token"=>"Nr/SNqHc6mLC9BJf7gUEfj47dbSAqhBCLGP+2LDGfXA="}
+  [4;35;1mContinent Create (0.2ms)[0m   [0mINSERT INTO "continents" ("created_at", "continent_name", "updated_at") VALUES('2011-07-04 13:15:24', 'con2', '2011-07-04 13:15:24')[0m
+Redirected to http://localhost:3007/continents/2
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/continents]
+
+
+Processing ContinentsController#show (for 127.0.0.1 at 2011-07-04 21:15:24) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mContinent Load (0.1ms)[0m   [0;1mSELECT * FROM "continents" WHERE ("continents"."id" = 2) [0m
+Rendering template within layouts/continents
+Rendering continents/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/continents/2]
+
+
+Processing ContinentsController#index (for 127.0.0.1 at 2011-07-04 21:15:25) [GET]
+  [4;35;1mContinent Load (0.3ms)[0m   [0mSELECT * FROM "continents" [0m
+Rendering template within layouts/continents
+Rendering continents/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/continents]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2011-07-04 21:15:29) [GET]
+  [4;36;1mCountry Load (0.4ms)[0m   [0;1mSELECT * FROM "countries" [0m
+Rendering template within layouts/countries
+Rendering countries/index
+Completed in 27ms (View: 8, DB: 0) | 200 OK [http://localhost/countries]
+
+
+Processing CountriesController#new (for 127.0.0.1 at 2011-07-04 21:15:30) [GET]
+Rendering template within layouts/countries
+Rendering countries/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/countries/new]
+
+
+Processing CountriesController#create (for 127.0.0.1 at 2011-07-04 21:15:38) [POST]
+  Parameters: {"commit"=>"Create", "country"=>{"name"=>"contri1", "continent_id"=>"1"}, "authenticity_token"=>"Nr/SNqHc6mLC9BJf7gUEfj47dbSAqhBCLGP+2LDGfXA="}
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "updated_at", "continent_id") VALUES('contri1', '2011-07-04 13:15:38', '2011-07-04 13:15:38', 1)[0m
+Redirected to http://localhost:3007/countries/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/countries]
+
+
+Processing CountriesController#show (for 127.0.0.1 at 2011-07-04 21:15:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 1) [0m
+Rendering template within layouts/countries
+Rendering countries/show
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/countries/1]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2011-07-04 21:15:39) [GET]
+  [4;35;1mCountry Load (0.3ms)[0m   [0mSELECT * FROM "countries" [0m
+Rendering template within layouts/countries
+Rendering countries/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/countries]
+
+
+Processing CountriesController#new (for 127.0.0.1 at 2011-07-04 21:15:40) [GET]
+Rendering template within layouts/countries
+Rendering countries/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/countries/new]
+
+
+Processing CountriesController#create (for 127.0.0.1 at 2011-07-04 21:15:45) [POST]
+  Parameters: {"commit"=>"Create", "country"=>{"name"=>"countri2", "continent_id"=>"2"}, "authenticity_token"=>"Nr/SNqHc6mLC9BJf7gUEfj47dbSAqhBCLGP+2LDGfXA="}
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "updated_at", "continent_id") VALUES('countri2', '2011-07-04 13:15:45', '2011-07-04 13:15:45', 2)[0m
+Redirected to http://localhost:3007/countries/2
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/countries]
+
+
+Processing CountriesController#show (for 127.0.0.1 at 2011-07-04 21:15:45) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT * FROM "countries" WHERE ("countries"."id" = 2) [0m
+Rendering template within layouts/countries
+Rendering countries/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/countries/2]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2011-07-04 21:15:46) [GET]
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT * FROM "countries" [0m
+Rendering template within layouts/countries
+Rendering countries/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/countries]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2011-07-04 21:15:51) [GET]
+  [4;35;1mCity Load (0.3ms)[0m   [0mSELECT * FROM "cities" [0m
+Rendering template within layouts/cities
+Rendering cities/index
+Completed in 50ms (View: 46, DB: 0) | 200 OK [http://localhost/cities]
+
+
+Processing CitiesController#new (for 127.0.0.1 at 2011-07-04 21:15:53) [GET]
+Rendering template within layouts/cities
+Rendering cities/new
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/cities/new]
+
+
+Processing CitiesController#create (for 127.0.0.1 at 2011-07-04 21:15:58) [POST]
+  Parameters: {"city"=>{"name"=>"citi1", "country_id"=>"1"}, "commit"=>"Create", "authenticity_token"=>"Nr/SNqHc6mLC9BJf7gUEfj47dbSAqhBCLGP+2LDGfXA="}
+  [4;36;1mCity Create (0.3ms)[0m   [0;1mINSERT INTO "cities" ("name", "created_at", "updated_at", "country_id") VALUES('citi1', '2011-07-04 13:15:58', '2011-07-04 13:15:58', 1)[0m
+Redirected to http://localhost:3007/cities/1
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/cities]
+
+
+Processing CitiesController#show (for 127.0.0.1 at 2011-07-04 21:15:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCity Load (0.1ms)[0m   [0mSELECT * FROM "cities" WHERE ("cities"."id" = 1) [0m
+Rendering template within layouts/cities
+Rendering cities/show
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/cities/1]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2011-07-04 21:15:59) [GET]
+  [4;36;1mCity Load (0.3ms)[0m   [0;1mSELECT * FROM "cities" [0m
+Rendering template within layouts/cities
+Rendering cities/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/cities]
+
+
+Processing CitiesController#show (for 127.0.0.1 at 2011-07-04 21:16:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCity Load (0.1ms)[0m   [0mSELECT * FROM "cities" WHERE ("cities"."id" = 1) [0m
+Rendering template within layouts/cities
+Rendering cities/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/cities/1]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2011-07-04 21:16:07) [GET]
+  [4;36;1mCity Load (0.3ms)[0m   [0;1mSELECT * FROM "cities" [0m
+Rendering template within layouts/cities
+Rendering cities/index
+Completed in 48ms (View: 4, DB: 0) | 200 OK [http://localhost/cities]
+
+
+Processing CitiesController#edit (for 127.0.0.1 at 2011-07-04 21:16:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCity Load (0.1ms)[0m   [0mSELECT * FROM "cities" WHERE ("cities"."id" = 1) [0m
+  [4;36;1mContinent Load (0.2ms)[0m   [0;1mSELECT * FROM "continents" [0m
+Rendering template within layouts/cities
+Rendering cities/edit
+
+ActionView::TemplateError (undefined method `name' for #<Continent:0x1035e4c10>) on line #15 of app/views/cities/edit.html.erb:
+12:     <%= f.text_field :country_id %>
+13:   </p>
+14: 
+15:   <%= grouped_collection_select(:city, :country_id, @continents, :countries, :name, :id, :name) %>
+16: 
+17:   <p>
+18:     <%= f.submit 'Update' %>
+
+    (eval):1:in `option_groups_from_collection_for_select'
+    app/views/cities/edit.html.erb:15
+    app/views/cities/edit.html.erb:3
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CitiesController#edit (for 127.0.0.1 at 2011-07-04 21:16:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCity Load (0.1ms)[0m   [0mSELECT * FROM "cities" WHERE ("cities"."id" = 1) [0m
+  [4;36;1mContinent Load (0.1ms)[0m   [0;1mSELECT * FROM "continents" [0m
+Rendering template within layouts/cities
+Rendering cities/edit
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT * FROM "countries" WHERE ("countries".continent_id = 1) [0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries".continent_id = 2) [0m
+Completed in 61ms (View: 55, DB: 1) | 200 OK [http://localhost/cities/1/edit]

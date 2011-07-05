@@ -1,7 +1,7 @@
 class CreateContinents < ActiveRecord::Migration
   def self.up
     create_table :continents do |t|
-      t.string :name
+      t.string :continent_name
 
       t.timestamps
     end

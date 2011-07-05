@@ -12,7 +12,7 @@
     <%= f.text_field :country_id %>
   </p>
 
-  <%= grouped_collection_select(:city, :country_id, @continents, :countries, :name, :id, :name) %>
+  <%= grouped_collection_select(:city, :country_id, @continents, :countries, :continent_name, :id, :name) %>
 
   <p>
     <%= f.submit 'Update' %>

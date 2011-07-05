@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(:version => 20110704123308) do
   end
 
   create_table "continents", :force => true do |t|
-    t.string   "name"
+    t.string   "continent_name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
