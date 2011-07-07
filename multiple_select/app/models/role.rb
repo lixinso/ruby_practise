@@ -1,3 +1,3 @@
 class Role < ActiveRecord::Base
-  has_and_belongs_to_many :user, :class_name => "User"
+  #has_and_belongs_to_many :user, :class_name => "User"
 end

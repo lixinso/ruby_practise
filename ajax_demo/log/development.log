@@ -1,0 +1,154 @@
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (16.5ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20110707024420)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "note" text, "priority" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110707024420')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tasks")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-07 10:45:09) [GET]
+
+ActionController::RoutingError (No route matches "/standards" with {:method=>:get}):
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2011-07-07 10:45:22) [GET]
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 172ms (View: 130, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2011-07-07 10:46:02) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2011-07-07 10:46:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"oclY0dWHSbLa1fGmTeubfY53pR86QNdXvSUwjvbZG0M=", "task"=>{"name"=>"task1", "priority"=>"1", "note"=>"note1"}}
+  [4;35;1mTask Create (454.5ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at", "priority", "note") VALUES('task1', '2011-07-07 02:46:10', '2011-07-07 02:46:10', 1, 'note1')[0m
+Redirected to http://localhost:3010/tasks/1
+Completed in 479ms (DB: 455) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2011-07-07 10:46:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 28ms (View: 24, DB: 0) | 200 OK [http://localhost/tasks/1]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2011-07-07 10:46:12) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2011-07-07 10:46:13) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2011-07-07 10:46:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"oclY0dWHSbLa1fGmTeubfY53pR86QNdXvSUwjvbZG0M=", "task"=>{"name"=>"task2", "priority"=>"2", "note"=>"note2"}}
+  [4;36;1mTask Create (0.3ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at", "priority", "note") VALUES('task2', '2011-07-07 02:46:21', '2011-07-07 02:46:21', 2, 'note2')[0m
+Redirected to http://localhost:3010/tasks/2
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2011-07-07 10:46:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 2) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/tasks/2]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2011-07-07 10:46:23) [GET]
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2011-07-07 10:46:24) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 47ms (View: 44, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2011-07-07 10:46:33) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"oclY0dWHSbLa1fGmTeubfY53pR86QNdXvSUwjvbZG0M=", "task"=>{"name"=>"task3", "priority"=>"3", "note"=>"note3"}}
+  [4;35;1mTask Create (0.2ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at", "priority", "note") VALUES('task3', '2011-07-07 02:46:33', '2011-07-07 02:46:33', 3, 'note3')[0m
+Redirected to http://localhost:3010/tasks/3
+Completed in 55ms (DB: 0) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2011-07-07 10:46:33) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 3) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/tasks/3]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2011-07-07 10:46:34) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2011-07-07 10:53:35) [GET]
+  [4;36;1mTask Load (0.4ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Rendered tasks/_task (5.4ms)
+Rendered tasks/_task (2.6ms)
+Rendered tasks/_task (2.8ms)
+Completed in 25ms (View: 20, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2011-07-07 10:53:39) [GET]
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Rendered tasks/_task (3.2ms)
+Rendered tasks/_task (1.6ms)
+Rendered tasks/_task (1.7ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/tasks]
