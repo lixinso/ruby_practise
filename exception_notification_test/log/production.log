@@ -1,0 +1,1043 @@
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:28:55) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:29:44) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:30:00) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:30:03) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:31:47) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:32:32) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:32:35) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:33:51) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:36:54) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:37:16) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:37:44) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HellosController#index (for 127.0.0.1 at 2011-09-23 18:38:26) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: hellos: SELECT * FROM "hellos" ):
+  app/controllers/hellos_controller.rb:8:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 18:39:22) [GET]
+
+ActionController::RoutingError (No route matches "/words" with {:method=>:get}):
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 18:39:48) [GET]
+
+ActionController::RoutingError (No route matches "/words" with {:method=>:get}):
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:48:05) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:48:05) [GET]
+
+NoMethodError (undefined method `you_got_an_error' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `local_request?'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+/!\ FAILSAFE /!\  Fri Sep 23 19:48:05 +0800 2011
+  Status: 500 Internal Server Error
+  undefined method `you_got_an_error' for nil:NilClass
+    /data/projects/ruby_practise/exception_notification_test/app/controllers/application_controller.rb:15:in `local_request?'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:151:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:48:24) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:48:24) [GET]
+
+NoMethodError (undefined method `you_got_an_error' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `local_request?'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+/!\ FAILSAFE /!\  Fri Sep 23 19:48:24 +0800 2011
+  Status: 500 Internal Server Error
+  undefined method `you_got_an_error' for nil:NilClass
+    /data/projects/ruby_practise/exception_notification_test/app/controllers/application_controller.rb:15:in `local_request?'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:151:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:49:02) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:49:02) [GET]
+
+NoMethodError (undefined method `you_got_an_error' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `local_request?'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+/!\ FAILSAFE /!\  Fri Sep 23 19:49:02 +0800 2011
+  Status: 500 Internal Server Error
+  undefined method `you_got_an_error' for nil:NilClass
+    /data/projects/ruby_practise/exception_notification_test/app/controllers/application_controller.rb:15:in `local_request?'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:151:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:49:06) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:49:06) [GET]
+
+NoMethodError (undefined method `you_got_an_error' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `local_request?'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+/!\ FAILSAFE /!\  Fri Sep 23 19:49:06 +0800 2011
+  Status: 500 Internal Server Error
+  undefined method `you_got_an_error' for nil:NilClass
+    /data/projects/ruby_practise/exception_notification_test/app/controllers/application_controller.rb:15:in `local_request?'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:151:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:49:12) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:49:12) [GET]
+
+NoMethodError (undefined method `you_got_an_error' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `local_request?'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+/!\ FAILSAFE /!\  Fri Sep 23 19:49:12 +0800 2011
+  Status: 500 Internal Server Error
+  undefined method `you_got_an_error' for nil:NilClass
+    /data/projects/ruby_practise/exception_notification_test/app/controllers/application_controller.rb:15:in `local_request?'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:151:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:49:53) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /data/projects/ruby_practise/exception_notification_test/public/500.html (500 Internal Server Error)
+rendering section "request"
+rendering section "session"
+rendering section "environment"
+rendering section "backtrace"
+Sent mail to webcontactconfirm@163.com
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:49:53) [GET]
+
+Errno::ECONNREFUSED (Connection refused - connect(2)):
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `initialize'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `open'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:67:in `timeout'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:101:in `timeout'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:525:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /data/projects/ruby_practise/exception_notification_test/public/500.html (500 Internal Server Error)
+rendering section "request"
+rendering section "session"
+rendering section "environment"
+rendering section "backtrace"
+Sent mail to webcontactconfirm@163.com
+/!\ FAILSAFE /!\  Fri Sep 23 19:49:53 +0800 2011
+  Status: 500 Internal Server Error
+  Connection refused - connect(2)
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `initialize'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `open'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:67:in `timeout'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:101:in `timeout'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:525:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:715:in `perform_delivery_smtp'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:556:in `__send__'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:556:in `deliver!'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:428:in `method_missing'
+    /data/projects/ruby_practise/exception_notification_test/vendor/plugins/exception_notification/lib/exception_notification/notifiable.rb:64:in `notify_about_exception'
+    /data/projects/ruby_practise/exception_notification_test/vendor/plugins/exception_notification/lib/exception_notification/notifiable.rb:49:in `rescue_action_in_public'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:154:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:49:57) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /data/projects/ruby_practise/exception_notification_test/public/500.html (500 Internal Server Error)
+rendering section "request"
+rendering section "session"
+rendering section "environment"
+rendering section "backtrace"
+Sent mail to webcontactconfirm@163.com
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:49:57) [GET]
+
+Errno::ECONNREFUSED (Connection refused - connect(2)):
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `initialize'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `open'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:67:in `timeout'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:101:in `timeout'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:525:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /data/projects/ruby_practise/exception_notification_test/public/500.html (500 Internal Server Error)
+rendering section "request"
+rendering section "session"
+rendering section "environment"
+rendering section "backtrace"
+Sent mail to webcontactconfirm@163.com
+/!\ FAILSAFE /!\  Fri Sep 23 19:49:57 +0800 2011
+  Status: 500 Internal Server Error
+  Connection refused - connect(2)
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `initialize'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `open'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:67:in `timeout'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:101:in `timeout'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:525:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:715:in `perform_delivery_smtp'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:556:in `__send__'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:556:in `deliver!'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:428:in `method_missing'
+    /data/projects/ruby_practise/exception_notification_test/vendor/plugins/exception_notification/lib/exception_notification/notifiable.rb:64:in `notify_about_exception'
+    /data/projects/ruby_practise/exception_notification_test/vendor/plugins/exception_notification/lib/exception_notification/notifiable.rb:49:in `rescue_action_in_public'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:154:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 19:51:04) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /data/projects/ruby_practise/exception_notification_test/public/500.html (500 Internal Server Error)
+rendering section "request"
+rendering section "session"
+rendering section "environment"
+rendering section "backtrace"
+Sent mail to webcontactconfirm@163.com
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-09-23 19:51:04) [GET]
+
+Errno::ECONNREFUSED (Connection refused - connect(2)):
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `initialize'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `open'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:67:in `timeout'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:101:in `timeout'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:525:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /data/projects/ruby_practise/exception_notification_test/public/500.html (500 Internal Server Error)
+rendering section "request"
+rendering section "session"
+rendering section "environment"
+rendering section "backtrace"
+Sent mail to webcontactconfirm@163.com
+/!\ FAILSAFE /!\  Fri Sep 23 19:51:04 +0800 2011
+  Status: 500 Internal Server Error
+  Connection refused - connect(2)
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `initialize'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `open'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:67:in `timeout'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/timeout.rb:101:in `timeout'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:551:in `do_start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/net/smtp.rb:525:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:715:in `perform_delivery_smtp'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:556:in `__send__'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:556:in `deliver!'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionmailer-2.3.12/lib/action_mailer/base.rb:428:in `method_missing'
+    /data/projects/ruby_practise/exception_notification_test/vendor/plugins/exception_notification/lib/exception_notification/notifiable.rb:64:in `notify_about_exception'
+    /data/projects/ruby_practise/exception_notification_test/vendor/plugins/exception_notification/lib/exception_notification/notifiable.rb:49:in `rescue_action_in_public'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:154:in `rescue_action_without_handler'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:74:in `rescue_action'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `send'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/base.rb:532:in `process_without_filters'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/filters.rb:606:in `process'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:29:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/query_cache.rb:28:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-2.3.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.12/lib/action_controller/dispatcher.rb:106:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/static.rb:31:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/rails-2.3.12/lib/commands/server.rb:111
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    script/server:3
+
+
+Processing WordsController#index (for 127.0.0.1 at 2011-09-23 20:19:57) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: words: SELECT * FROM "words" ):
+  app/controllers/words_controller.rb:5:in `index'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/admin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /data/projects/ruby_practise/exception_notification_test/public/500.html (500 Internal Server Error)
+rendering section "request"
+rendering section "session"
+rendering section "environment"
+rendering section "backtrace"
+Sent mail to webcontactconfirm@163.com
